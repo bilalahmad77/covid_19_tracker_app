@@ -33,7 +33,7 @@ class App extends React.Component {
 
             <CountryPicker handleCountryChange={this.handleCountryChange}/>
             <Chart data={data} country={country}/>
-            <h2>Covid-19 App By: Bilal Ahmad</h2>
+            <h2>Covid-19 Tracker App By: Bilal Ahmad</h2>
         </div>
         )
     }
